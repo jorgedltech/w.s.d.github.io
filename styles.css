@@ -26,10 +26,10 @@ ul.crumbs {
     border-radius: 8px;
 }
 
-.crumb:hover {
-    background-color: gray !important;
+li.crumb:hover {
+    background-color: gray;
     color: #fff;
-    transition: color .1s ease-in;
+    transition: color .2s ease-in;
 }
 
 a {
@@ -227,4 +227,6 @@ a.back-button {
 a.back-button:hover, a.back-button:active {
     background-color: gray;
     color: #fff;
+    transition: color .2s ease-in;
+}
 }
