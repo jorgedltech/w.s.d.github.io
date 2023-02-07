@@ -213,16 +213,19 @@ footer>p {
 }
 
 a.back-button {
-    color: gray;
     position: fixed;
     right: 2vh;
     bottom: 2vh;
     background-color: whitesmoke;
+    color: gray;
     padding: 1rem;
+    border: 2px double gray;
     border-radius: 8px;
 }
 
-a.back-button:hover, .back-button:visited {
+
+
+a.back-button:hover, a.back-button:active {
     background-color: gray;
     color: #fff;
 }
