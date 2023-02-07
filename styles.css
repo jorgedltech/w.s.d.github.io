@@ -211,3 +211,18 @@ footer>p {
     text-align: center;
     font-size: 16px;
 }
+
+a.back-button {
+    color: gray;
+    position: fixed;
+    right: 2vh;
+    bottom: 2vh;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+a.back-button:hover, .back-button:visited {
+    background-color: gray;
+    color: #fff;
+}
